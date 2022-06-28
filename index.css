@@ -258,3 +258,21 @@ span {
 bottom a {
     text-decoration:none;
 }
+
+.loading {
+    width: 15px;
+    height: 15px;
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+    
+}
